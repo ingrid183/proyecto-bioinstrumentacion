@@ -3,7 +3,7 @@ import time
 import pyautogui
 
 time.sleep(2)
-ser = serial.Serial("COM7", 9600, timeout=1)
+ser = serial.Serial("COM5", 9600, timeout=1)
 while ser.is_open:
     valorSerial = str(ser.read())
     numero = 0
