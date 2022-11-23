@@ -8,7 +8,7 @@ void loop() {
   /*
     Esto es para generar valores aleatorios y probar el código de python
   */
-  Serial.print(random(1,7));
+  Serial.println(random(1,5));
 
   /*
     Esto es para probar la lectura del voltaje en el pin analógico
